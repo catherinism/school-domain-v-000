@@ -21,12 +21,18 @@ def grade(grade_input)
 end
 
 def sort
+<<<<<<< HEAD
   @roster_new = {}
   @roster.each do |key, value|
     @roster_new[key] = value.sort
 end
 @roster_new
 end
+=======
+  @roster.each { |key, value|  }
+end
+
+>>>>>>> 55b78604207f61ac9108030cd4ca845cf0de128a
 end
 
 
